@@ -1,0 +1,54 @@
+body {
+	background: #373737;
+
+	font-family: Arial, sans-serif;
+	color: white;
+}
+
+/* ------ Main ------ */
+
+main {
+	display: flex;
+	flex-direction: column;
+
+	width: 700px;
+	height: auto;
+	margin: 50px auto 0px;
+}
+
+.page-title {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	margin-left: 50px;
+
+	font-size: 24px;
+}
+
+section {
+	display: flex;
+	flex-direction: column;
+
+	width: 100%;
+	height: auto;
+
+	margin: 25px auto 0;
+	padding: 25px 50px 50px;
+	border-radius: 25px;
+
+	background: #333333;
+}
+
+@media screen and (max-width: 1000px) {
+	main {
+		width: 80%;
+	}
+}
+.item {
+	display: flex;
+	justify-content: space-between;
+}
+.item div {
+	margin-left: 25px;
+}
